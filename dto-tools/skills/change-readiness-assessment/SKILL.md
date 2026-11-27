@@ -71,4 +71,4 @@ After delivering the PDF, give a one-line summary in the chat (overall % and rea
 
 - All 24 questions get asked — don't skip dimensions even if early answers suggest strong readiness; a real assessment needs the full picture, and the barrier-point logic depends on having every dimension scored.
 - If the user wants to answer via free text instead of tapping a button, accept it and map it to Sí/Parcial/No sensibly rather than insisting on the buttons.
-- This skill is independent of `demand-intake` and `problem-definition` — it doesn't feed into or read from either, and produces only the PDF (no Notion write).
+- This skill is independent of `demand-intake` — it doesn't feed into or read from it, and produces only the PDF (no Notion write).

@@ -53,4 +53,4 @@ Ask via buttons: **"¿Querés que profundicemos en otro paso/dimensión?"**, **"
 - This is the conversational, pragmatic-advice counterpart to `change-readiness-assessment` in this same plugin — that skill runs a formal 24-question ADKAR survey and produces a scored PDF report; this skill is for open-ended coaching questions and doesn't score or report anything. If the user mentions they already have readiness-assessment results (a specific barrier dimension, a score), use that as context instead of re-diagnosing from scratch.
 - Default to Spanish, matching the other `dto-tools` skills, but follow whatever language the user writes in.
 - Don't force the conversation into a rigid script — if the person's next question jumps to a different dimension/step or a related but distinct situation, follow them there rather than insisting on finishing a fixed sequence.
-- This skill is self-contained: it doesn't read or write outputs from `problem-definition`, `demand-intake`, `change-readiness-assessment`, or `list-projects`.
+- This skill is self-contained: it doesn't read or write outputs from `demand-intake` or `change-readiness-assessment`.
